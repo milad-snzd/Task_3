@@ -1,0 +1,545 @@
+.body {
+    margin: 0;
+    background-color: rgb(228, 228, 228);
+    ;
+}
+
+.containerone {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    flex-direction: row;
+    justify-content: space-between;
+    direction: rtl;
+    flex-wrap: wrap;
+    padding-top: 0;
+}
+
+.containerone-content {
+    width: 32.5%;
+    height: 90%;
+    background-color: white;
+}
+
+.containerone-content-first {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 239, 239);
+    margin: 15px;
+    height: 14%;
+    align-items: center;
+}
+
+.containerone-content-first-item {
+    color: rgb(0, 195, 255);
+}
+
+.containerone-content-two {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 239, 239);
+    margin: 15px;
+    height: 14%;
+    align-items: center;
+}
+
+.containerone-content-two-item {
+    color: black;
+}
+
+.containerone-content-three {
+    display: flex;
+    justify-content: flex-start;
+    height: 14%;
+    align-items: center;
+    margin: 20px;
+    width: 25%;
+}
+
+.containerone-content-three-item {
+    color: black;
+}
+
+.containerone-content-four {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 239, 239);
+    margin: 15px;
+    height: 14%;
+    align-items: center;
+}
+
+.containerone-content-four-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 239, 239);
+    height: 14%;
+    align-items: center;
+}
+
+.containerone-content-five {
+    display: flex;
+    justify-content: flex-start;
+    height: 14%;
+    margin: 20px;
+    width: 95%;
+}
+
+.containerone-content-five-item {
+    color: black;
+    background-color: rgba(233, 232, 232, 0.842);
+    margin: 2px;
+    width: 15%;
+}
+
+.containerone-content-six {
+    display: flex;
+    justify-content: space-between;
+    height: 14%;
+    margin: 20px;
+    width: 95%;
+}
+
+.containerone-content-seven {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 239, 239);
+    margin: 15px;
+    height: 14%;
+    align-items: center;
+}
+
+.containerone-content-seven-item {
+    display: flex;
+    color: rgb(0, 195, 255);
+    background-color: rgb(241, 239, 239);
+    height: 14%;
+    align-items: center;
+}
+
+.containerone-content-eight {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 239, 239);
+    margin: 15px;
+    height: 14%;
+    align-items: center;
+}
+
+.containerone-content-eight-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 239, 239);
+    height: 14%;
+    align-items: center;
+}
+
+.button1 {
+    border: none;
+    width: 95%;
+    color: white;
+    padding: 4px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px 17px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(0, 195, 255);
+}
+
+.button1:hover {
+    background-color: rgb(0, 195, 255);
+    color: white;
+}
+
+.containertwo {
+    display: flex;
+    width: 75%;
+    height: 10%;
+    direction: ltr;
+    flex-wrap: nowrap;
+}
+
+.containertwo-content {
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.containertwo-content-first {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 217, 0);
+    width: 50%;
+    margin: 12px;
+}
+
+.containertwo-content-first-items {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 50%;
+    align-items: flex-end;
+}
+
+.containertwo-content-first-items-item1 {
+    display: flex;
+    padding: 5px;
+}
+
+.containertwo-content-two-items {
+    display: flex;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(241, 217, 0);
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.containertwo-content-two-items-item2 {
+    display: flex;
+    width: 46%;
+    background-color: white;
+    justify-content: center;
+    height: 60%;
+    font-size: 80%;
+}
+
+.containertwo-content-two-items-item3 {
+    display: flex;
+    width: 23%;
+    background-color: white;
+    justify-content: center;
+    height: 60%;
+    font-size: 80%;
+}
+
+.containertwo-content-two-items-item4 {
+    display: flex;
+    width: 23%;
+    background-color: white;
+    justify-content: center;
+    height: 60%;
+    font-size: 80%;
+}
+
+.containertwo-content-two {
+    display: flex;
+    background-color: rgb(3, 218, 3);
+    width: 50%;
+    margin: 12px;
+    flex-direction: column;
+}
+
+.containertwo-content-three-items {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 50%;
+    align-items: flex-end;
+}
+
+.containertwo-content-first-items-item1 {
+    display: flex;
+    padding: 5px;
+}
+
+.containertwo-content-four-items {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(3, 218, 3);
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.containertwo-content-four-items-item2 {
+    display: flex;
+    width: 47%;
+    background-color: white;
+    justify-content: center;
+    height: 60%;
+    font-size: 80%;
+}
+
+.containertwo-content-four-items-item3 {
+    display: flex;
+    width: 47%;
+    background-color: white;
+    justify-content: center;
+    height: 60%;
+    font-size: 80%;
+}
+
+.containerthree {
+    display: flex;
+    width: 75%;
+    height: 21%;
+    flex-direction: row;
+    direction: ltr;
+    flex-wrap: nowrap;
+}
+
+.containerthree-content {
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.containerthree-contentone-items {
+    width: 65%;
+    height: 95%;
+    display: flex;
+    border-radius: 5px;
+    margin: 3px;
+    border-style: groove;
+    flex-direction: column;
+    direction: rtl;
+}
+
+.milad1 {
+    display: flex;
+    margin-top: 15px;
+}
+
+.button5 {
+    border: none;
+    width: 36%;
+    color: white;
+    padding: 4px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-style: groove;
+}
+
+.containerthree-contentone-items-item1 {
+    display: flex;
+    width: 13%;
+    height: 31px;
+    background-color: rgb(3, 218, 3);
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.milad2 {
+    display: flex;
+    margin-top: 15px;
+}
+
+.containerthree-contentone-items-item2 {
+    display: flex;
+    width: 13%;
+    height: 31px;
+    background-color: rgb(241, 217, 0);
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.milad3 {
+    display: flex;
+    margin-top: 15px;
+}
+
+.containerthree-contentone-items-item3 {
+    display: flex;
+    width: 13%;
+    height: 31 px;
+    background-color: red;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.containerthree-contenttwo-items {
+    width: 32%;
+    height: 95%;
+    display: flex;
+    border-radius: 5px;
+    margin: 3px;
+    border-style: groove;
+    flex-direction: column;
+    direction: rtl;
+}
+
+.button6 {
+    border: none;
+    width: 80%;
+    color: white;
+    padding: 4px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-style: groove;
+}
+
+.containerfour {
+    display: flex;
+    width: 75%;
+    height: 7%;
+    flex-direction: row;
+    direction: ltr;
+    flex-wrap: nowrap;
+}
+
+.containerfive {
+    display: flex;
+    width: 75%;
+    height: 7%;
+    flex-direction: row;
+    direction: ltr;
+    flex-wrap: nowrap;
+}
+
+.containersix {
+    display: flex;
+    width: 75%;
+    height: 7%;
+    flex-direction: row;
+    direction: ltr;
+    flex-wrap: nowrap;
+}
+
+.containerseven {
+    display: flex;
+    width: 75%;
+    height: 7%;
+    flex-direction: row;
+    direction: ltr;
+    flex-wrap: nowrap;
+}
+
+.containereight {
+    display: flex;
+    width: 75%;
+    height: 7%;
+    flex-direction: row;
+    direction: ltr;
+    flex-wrap: nowrap;
+}
+
+.containernine {
+    display: flex;
+    width: 75%;
+    height: 8%;
+    flex-direction: row-reverse;
+}
+
+.containerten {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    flex-direction: row;
+    direction: ltr;
+    flex-wrap: nowrap;
+}
+
+.containereleven {
+    display: flex;
+    width: 24%;
+    height: 70%;
+    flex-direction: row-reverse;
+    direction: ltr;
+}
+
+.button_2 {
+    border: none;
+    width: 7%;
+    color: black;
+    padding: 4px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: rgb(255, 181, 44);
+    cursor: pointer;
+    border-radius: 7px;
+    margin: 20px;
+}
+
+.containerfour-content {
+    width: 100%;
+    height: 75%;
+    background-color: white;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.containerfive-content {
+    width: 100%;
+    height: 75%;
+    background-color: white;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.containersix-content {
+    width: 100%;
+    height: 75%;
+    background-color: white;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.containerseven-content {
+    width: 100%;
+    height: 75%;
+    background-color: white;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.containereight-content {
+    width: 100%;
+    height: 75%;
+    background-color: white;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.containernine-content {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 90%;
+    background-color: white;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.containerten-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    margin: 5px;
+}
+
+.containereleven-content {
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    margin: 5px;
+    border-radius: 15px;
+}
